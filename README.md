@@ -5,6 +5,17 @@ O objetivo é criar um sistema **simples, mas completo**, para gerenciar uma loj
 
 ---
 
+## 📑 Tópicos
+- [🚀 Tecnologias Utilizadas](#-tecnologias-utilizadas)  
+- [📋 Funcionalidades](#-funcionalidades)  
+- [📑 Estrutura de Páginas](#-estrutura-de-páginas)  
+- [🗂️ Fluxo de Navegação do Sistema](#️-fluxo-de-navegação-do-sistema)  
+- [🎯 Objetivo](#-objetivo)  
+
+
+---
+
+
 ## 🚀 Tecnologias Utilizadas
 - **Java** (com Maven)  
 - **Hibernate** (ORM para persistência de dados)  
