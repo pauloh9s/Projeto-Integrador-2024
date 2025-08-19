@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.exemploprojeto.controller.CadastroFuncionarioController">
+   <children>
+      <SplitPane dividerPositions="0.4783" prefHeight="400.0" prefWidth="600.0">
+         <items>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <TableView fx:id="tableViewFuncionario" layoutX="25.0" layoutY="92.0" prefHeight="398.0" prefWidth="265.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <columns>
+                        <TableColumn fx:id="tableColumnId" prefWidth="73.0" text="ID" />
+                        <TableColumn fx:id="tableColumnNome" prefWidth="208.0" text="NOME" />
+                     </columns>
+                     <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                     </columnResizePolicy>
+                  </TableView>
+               </children>
+            </AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="398.0" prefWidth="320.0">
+               <children>
+                  <GridPane layoutX="13.0" layoutY="109.0" prefHeight="155.0" prefWidth="283.0">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="137.0" minWidth="10.0" prefWidth="82.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="213.0" minWidth="10.0" prefWidth="201.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <Label text="ID" />
+                        <Label layoutX="10.0" layoutY="33.0" prefHeight="21.0" prefWidth="38.0" text="Nome" GridPane.rowIndex="1" />
+                        <Label layoutX="10.0" layoutY="54.0" text="Cargo" GridPane.rowIndex="4" />
+                        <Label fx:id="labelIdFuncionario" alignment="CENTER" prefHeight="17.0" prefWidth="214.0" text="-" GridPane.columnIndex="1" />
+                        <Label fx:id="labelNomeFuncionario" alignment="CENTER" prefHeight="17.0" prefWidth="210.0" text="-" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Label fx:id="labelCargoFuncionario" alignment="CENTER" prefHeight="17.0" prefWidth="201.0" text="-" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                        <Label text="Telefone" GridPane.rowIndex="2" />
+                        <Label text="Email" GridPane.rowIndex="3" />
+                        <Label fx:id="labelTelefoneFuncionario" alignment="CENTER" prefHeight="17.0" prefWidth="217.0" text="-" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Label fx:id="labelEmailFuncionario" alignment="CENTER" prefHeight="17.0" prefWidth="210.0" text="-" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                     </children>
+                  </GridPane>
+                  <Group layoutX="110.0" layoutY="333.0">
+                     <children>
+                        <Button fx:id="buttonInserir" layoutX="-15.0" mnemonicParsing="false" onAction="#handleButtonInserir" text="Cadastro" />
+                        <Button fx:id="buttonAlterar" layoutX="55.0" mnemonicParsing="false" onAction="#handleButtonAlterar" text="Alterar" />
+                        <Button fx:id="buttonRemover" layoutX="113.0" mnemonicParsing="false" onAction="#handleButtonRemover" text="Remover" />
+                     </children>
+                  </Group>
+               </children>
+            </AnchorPane>
+         </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
