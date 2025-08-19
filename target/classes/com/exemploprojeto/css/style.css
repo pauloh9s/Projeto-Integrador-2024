@@ -1,0 +1,37 @@
+.menuBarStyle {
+    -fx-background-color: transparent; 
+    -fx-border-color: transparent;     
+    -fx-background-insets: 0;          
+    -fx-padding: 0;                
+    -fx-effect: null;                  
+    -fx-font-weight: bold;
+     -fx-font-size: 14px;
+}
+.paneLoginStyle{
+	-fx-background-color: rgba(103, 179, 230, 0.705);
+}
+.tableViewText {
+    -fx-alignment: CENTER;
+}
+.buttonStyleLogin {
+	-fx-effect: null;
+	-fx-background-color: rgb(43, 167, 255);
+
+}
+.tab-label{
+	 -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    
+}
+
+.tab-pane .tab-header-area {
+
+    -fx-padding: 0 250px;
+    -fx-alignment: center; 
+    -fx-background-color: rgb(43, 167, 255);
+     
+}
+
+.tab-pane .tab {
+    -fx-background-color: transparent; 
+}
