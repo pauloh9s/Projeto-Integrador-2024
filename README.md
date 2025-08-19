@@ -1,6 +1,16 @@
 # 🖥️ Sistema de Gerenciamento de Manutenção de Computadores
 
-Este projeto foi desenvolvido em **2024** pelos alunos do curso de **Desenvolvimento de Sistemas (SENAC Quixadá)**.  
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaFX-000000?style=for-the-badge&logo=java&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+</p>
+
+Este projeto foi desenvolvido em **2024** no curso de **Desenvolvimento de Sistemas (SENAC Quixadá)**.  
 O objetivo é criar um sistema **simples, mas completo**, para gerenciar uma loja de manutenção de computadores.
 
 ---
